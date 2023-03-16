@@ -9,7 +9,7 @@
 
 - [Writing your first test](./documentation/3-Writing-your-first-test.md) This should cover the basics of writing a simple test using React Testing Library, including how to render a component, interact with it, and make assertions about its state.
 
-- [Testing user interactions](#4-testing-user-interactions) This should cover how to simulate user interactions such as clicks, typing, and form submissions, and how to test the resulting changes to the component's state or UI.
+- [Testing user interactions](./documentation/4.Testing%20user%20interactions.md) This should cover how to simulate user interactions such as clicks, typing, and form submissions, and how to test the resulting changes to the component's state or UI.
 
 - [Testing async code](#5-testing-async-code) This should cover how to test components that make asynchronous requests or use async functions, and how to handle async code in your test suite using tools like async/await or Jest's done callback.
 

@@ -3,11 +3,11 @@
 ## List of Topics
 
 
-- [Introduction to React Testing Library:](./documentation/Introduction.md) This should cover the basics of what React Testing Library is, how it differs from other testing libraries like Enzyme, and why it's useful for testing React components.
+- [Introduction to React Testing Library:](./documentation/1-Introduction.md) This should cover the basics of what React Testing Library is, how it differs from other testing libraries like Enzyme, and why it's useful for testing React components.
 
-- [Setting up your testing environment](./documentation/Setting-up-your-testing-environment.md) This should cover how to install and configure the necessary dependencies for testing with React Testing Library, including Jest, React Testing Library, and any other necessary testing utilities.
+- [Setting up your testing environment](./documentation/2-Setting-up-your-testing-environment.md) This should cover how to install and configure the necessary dependencies for testing with React Testing Library, including Jest, React Testing Library, and any other necessary testing utilities.
 
-- [Writing your first test](#3-writing-your-first-test) This should cover the basics of writing a simple test using React Testing Library, including how to render a component, interact with it, and make assertions about its state.
+- [Writing your first test](./documentation/3-Writing-your-first-test.md) This should cover the basics of writing a simple test using React Testing Library, including how to render a component, interact with it, and make assertions about its state.
 
 - [Testing user interactions](#4-testing-user-interactions) This should cover how to simulate user interactions such as clicks, typing, and form submissions, and how to test the resulting changes to the component's state or UI.
 

@@ -1,8 +1,8 @@
-import './App.css';
-import ItemList from './components/ItemList';
+import "./App.css";
+import ItemList from "./components/ItemList";
 
 function App() {
-  const items = ['apple', 'banana', 'cherry', 'date'];
+  const items = ["apple", "banana", "cherry", "date"];
 
   return (
     <div>

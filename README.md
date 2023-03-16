@@ -3,26 +3,26 @@
 ## List of Topics
 
 
-- 1. [Introduction to React Testing Library:](introduction-to-react-testing-library) This should cover the basics of what React Testing Library is, how it differs from other testing libraries like Enzyme, and why it's useful for testing React components.
+- [Introduction to React Testing Library:](#1-introduction-to-react-testing-library) This should cover the basics of what React Testing Library is, how it differs from other testing libraries like Enzyme, and why it's useful for testing React components.
 
-- 2. Setting up your testing environment: This should cover how to install and configure the necessary dependencies for testing with React Testing Library, including Jest, React Testing Library, and any other necessary testing utilities.
+- [Setting up your testing environment](#2-install-react-testing-library) This should cover how to install and configure the necessary dependencies for testing with React Testing Library, including Jest, React Testing Library, and any other necessary testing utilities.
 
-- 3. Writing your first test: This should cover the basics of writing a simple test using React Testing Library, including how to render a component, interact with it, and make assertions about its state.
+- [Writing your first test](#3-writing-your-first-test) This should cover the basics of writing a simple test using React Testing Library, including how to render a component, interact with it, and make assertions about its state.
 
-- 4. Testing user interactions: This should cover how to simulate user interactions such as clicks, typing, and form submissions, and how to test the resulting changes to the component's state or UI.
+- [Testing user interactions](#4-testing-user-interactions) This should cover how to simulate user interactions such as clicks, typing, and form submissions, and how to test the resulting changes to the component's state or UI.
 
-- 5. Testing async code: This should cover how to test components that make asynchronous requests or use async functions, and how to handle async code in your test suite using tools like async/await or Jest's done callback.
+- [Testing async code](#5-testing-async-code) This should cover how to test components that make asynchronous requests or use async functions, and how to handle async code in your test suite using tools like async/await or Jest's done callback.
 
-- 6. Mocking dependencies: This should cover how to use mocking and stubbing to isolate components from external dependencies like APIs or other modules, and how to write tests that ensure the component is behaving as expected when those dependencies are mocked.
+- [Mocking dependencies](#6-mocking-dependencies) This should cover how to use mocking and stubbing to isolate components from external dependencies like APIs or other modules, and how to write tests that ensure the component is behaving as expected when those dependencies are mocked.
 
-- 7. Testing accessibility: This should cover how to use React Testing Library's accessibility features to ensure that your components are usable and understandable for all users, including those with disabilities.
+- [Testing accessibility](#7-testing-accessibility) This should cover how to use React Testing Library's accessibility features to ensure that your components are usable and understandable for all users, including those with disabilities.
 
-- 8. Snapshot testing: This should cover how to use snapshot testing to quickly verify that a component's UI hasn't changed unexpectedly, and how to handle snapshot failures.
+- [Snapshot testing](#8-snapshot-testing) This should cover how to use snapshot testing to quickly verify that a component's UI hasn't changed unexpectedly, and how to handle snapshot failures.
 
-- 9. Best practices: This should cover some best practices for testing with React Testing Library, such as keeping tests simple and focused, avoiding implementation details, and using semantic queries to select elements in your component.
+- [Best practices](#9-best-practices) This should cover some best practices for testing with React Testing Library, such as keeping tests simple and focused, avoiding implementation details, and using semantic queries to select elements in your component.
 
 
-## Introduction to React Testing Library
+## 1. Introduction to React Testing Library
 React Testing Library is a popular testing library that is used to test React components. It provides a simple and effective way to test React components, ensuring that they work as intended and that their behavior remains consistent over time. Here are some key points to understand about React Testing Library:
 
 ### What is React Testing Library?
@@ -72,3 +72,11 @@ module.exports = {
 ```
 
 <small>**If you've created your React app using create-react-app, Jest and React Testing Library are likely already included in your project. However, you may need to install additional testing utilities, and potentially customize Jest's configuration using a jest.config.js file. This configuration sets up Jest to use the `@testing-library/jest-dom` library, which provides additional testing utilities for working with React components. It also sets up some default mock behavior for CSS and file imports.**</small>
+
+## 3. Writing your first test
+## 4. Testing user interactions
+## 5. Testing async code
+## 6. Mocking dependencies
+## 7. Testing accessibility
+## 8. Snapshot testing
+## 9. Best practices

@@ -1,13 +1,12 @@
 import "./App.css";
-import ItemList from "./components/ItemList";
+import UsersListContainer from "./components/UsersList/UsersListContainer";
 
 function App() {
-  const items = ["apple", "banana", "cherry", "date"];
 
   return (
     <div>
-      <h1>My Items</h1>
-      <ItemList items={items} />
+      <h1>Welcome to My App</h1>
+      <UsersListContainer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 # Suggested TestCafe Folder Structure
 
-![Suggested TestCafe Folder Structure](folder-structure.png "Folder Structure");
+![Suggested TestCafe Folder Structure](folder-structure.png "Folder Structure")
 
 
 - **pages/**: Contains files that represent the pages of the application under test, and the selectors and actions that can be performed on those pages. By encapsulating the page elements and their selectors in reusable objects, we can make the tests more modular and easier to read and maintain.

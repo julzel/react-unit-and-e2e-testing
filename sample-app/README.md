@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App and Test Cafe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses TestCafe for e2e testing.
 
 ## Available Scripts
 
@@ -18,6 +18,9 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run tc`
+Launches TestCafe e2e testing.\
 
 ### `npm run build`
 

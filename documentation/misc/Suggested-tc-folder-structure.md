@@ -3,20 +3,20 @@ app/
 ├── public/
 ├── src/
 │   ├── components/
+│   │   └── Header.js
 │   ├── pages/
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   └── Home.js
 │   ├── tests/
 │   │   ├── e2e/
-│   │   │   ├── pages/
-│   │   │   ├── tests/
-│   │   │   ├── helpers/
 │   │   │   ├── fixtures/
-│   │   │   └── data/
-│   │   ├── unit/
-│   │   ├── integration/
-│   │   └── mocks/
-│   │       ├── rest-api/
-│   │       │   ├── __mocks__/
-│   │       │   └── fixtures/
+│   │   │   ├── helpers/
+│   │   │   ├── mocks/
+│   │   │   ├── utils/
+│   │   │   └── features/
+│   │   │   │   ├── navigation/
+│   │   │   │   ├── contact-form/
 │   ├── utils/
 │   ├── App.js
 │   └── index.js
